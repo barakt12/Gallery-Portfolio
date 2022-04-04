@@ -2,7 +2,6 @@ $(initPage)
 
 function initPage() {
   renderProjects()
-  // addEventListeners()
 }
 
 function renderProjects() {
@@ -20,8 +19,8 @@ function renderProjects() {
         </div>
       </div>
       <img
-        class="img-responsive"
-        style="height: 350px;width: 100%;object-fit: cover;"
+        class="img-fluid"
+        style="height: 300px;width: 400px;object-fit: cover;"
         src="img/portfolio/${proj.id}.png"
         alt=""
       />
@@ -51,6 +50,7 @@ function renderModal(id) {
                   Check it out!
                 </button>
                   <img
+                    onclick="redirect('${proj.id}')"
                     class="img-fluid d-block mx-auto"
                     src="img/portfolio/${id}.png"
                     alt=""
@@ -76,6 +76,5 @@ function renderModal(id) {
 }
 
 function redirect(id) {
-  // console.log(`barakt12.github.io/${id}/`)
   window.location.href = `http://barakt12.github.io/${id}/`
 }

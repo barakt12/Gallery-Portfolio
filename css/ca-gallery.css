@@ -789,3 +789,12 @@ fieldset[disabled] .btn-xl:hover {
   padding-right: 0;
   padding-left: 0;
 }
+
+.modal-body img {
+  cursor: pointer;
+}
+
+.me {
+  /* display: none; */
+  object-fit: cover;
+}
