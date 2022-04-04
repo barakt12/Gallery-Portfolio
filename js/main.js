@@ -20,8 +20,9 @@ function renderProjects() {
         </div>
       </div>
       <img
-        class="img-fluid"
-        src="img/portfolio/01-thumbnail.jpg"
+        class="img-responsive"
+        style="height: 350px;width: 100%;object-fit: cover;"
+        src="img/portfolio/${proj.id}.png"
         alt=""
       />
     </a>
@@ -51,7 +52,7 @@ function renderModal(id) {
                 </button>
                   <img
                     class="img-fluid d-block mx-auto"
-                    src="img/portfolio/01-full.jpg"
+                    src="img/portfolio/${id}.png"
                     alt=""
                   />
                   <p>

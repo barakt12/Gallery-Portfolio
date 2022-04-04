@@ -20,7 +20,7 @@ function _createProjects() {
       'The genie learn through your inputs after not being able to guess. Usage of Binary Tree.',
       'projs/GeniusGenie',
       new Date('03 April 2022'),
-      ['Games', 'Binary Tree, Bootstrap']
+      ['Games', 'Binary Tree', 'Bootstrap', 'jQuery']
     ),
     _createProject(
       'pacman',
