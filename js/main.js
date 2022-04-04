@@ -6,8 +6,8 @@ function initPage() {
 
 function renderProjects() {
   var projects = getProjects()
-  var strHTMLs = projects.map((proj, idx) => {
-    return `<div onclick="renderModal('${proj.id}')" class="col-md-4 col-sm-6 portfolio-item item${idx}">
+  var strHTMLs = projects.map((proj) => {
+    return `<div onclick="renderModal('${proj.id}')" class="col-md-4 col-sm-6 portfolio-item">
     <a
       class="portfolio-link"
       data-toggle="modal"
@@ -20,7 +20,6 @@ function renderProjects() {
       </div>
       <img
         class="img-fluid"
-        style="height: 300px;width: 400px;object-fit: cover;"
         src="img/portfolio/${proj.id}.png"
         alt=""
       />
@@ -52,7 +51,7 @@ function renderModal(id) {
                   <img
                     onclick="redirect('${proj.id}')"
                     class="img-fluid d-block mx-auto"
-                    src="img/portfolio/${id}.png"
+                    src="${proj.url}"
                     alt=""
                   />
                   <p>

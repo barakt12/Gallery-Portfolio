@@ -84,14 +84,16 @@ body {
 .offcanvas-aside {
   position: fixed;
   height: 100%;
-  background: red;
+  background: #fed136;
   width: 80vw;
   right: -80vw;
   z-index: 10;
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+  padding-left: 40px;
+  padding-right: 40px;
   justify-content: space-around;
 }
 .offcanvas-aside img {
@@ -794,7 +796,16 @@ fieldset[disabled] .btn-xl:hover {
   cursor: pointer;
 }
 
+.portfolio-item img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .me {
   /* display: none; */
   object-fit: cover;
+}
+
+.contactsubmit {
 }

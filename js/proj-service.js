@@ -9,7 +9,7 @@ function _createProjects() {
       'Minesweeper',
       'With extra features!',
       'A remake of the classic Minesweeper game with modern design and additional features',
-      'projs/Minesweeper',
+      'img/portfolio/minesweeper2.png',
       new Date('Mar 27 2022'),
       ['Matrixes', 'Games']
     ),
@@ -17,8 +17,8 @@ function _createProjects() {
       'geniusgenie',
       'Genius Genie',
       'Let the genie guess your character!',
-      'The genie learn through your inputs after not being able to guess. Usage of Binary Tree.',
-      'projs/GeniusGenie',
+      'The genie learns through your inputs after failing to guess correctly, Usage of Binary Tree.',
+      'img/portfolio/geniusgenie.png',
       new Date('03 April 2022'),
       ['Games', 'Binary Tree', 'Bootstrap', 'jQuery']
     ),
@@ -27,7 +27,7 @@ function _createProjects() {
       'Pacman',
       'A Maze Action game',
       'A remake of pacman',
-      'projs/Pacman',
+      'img/portfolio/pacman.png',
       new Date('22 March 2022'),
       ['Keyboard Events', 'NPC Logic', 'Games']
     ),
